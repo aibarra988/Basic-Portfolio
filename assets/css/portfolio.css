@@ -1,0 +1,32 @@
+.portfolio {
+    display: flex;
+    height: 51em;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    height: 200px;
+    width: 250px;
+    margin-right: 2em;
+    text-align: center;
+}
+
+.portfolio-item img {
+    height: 200px;
+    width: 250px;
+}
+
+.portfolio-item a {
+    text-decoration: none;
+    color: #777777;
+}
+.portfolio-item div {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 42px;
+    line-height: 2.5;
+    position: absolute;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
